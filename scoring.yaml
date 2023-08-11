@@ -1,0 +1,9 @@
+# Define the scoring rules
+scoring_rules = {
+    'SACKS': 1,
+    'INT': 2,
+    'FUM': 2,  # Assuming that FUM and REC both represent fumble recoveries
+    'REC': 2,
+    'TD': 6,
+    'XP': 1
+}
