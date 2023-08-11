@@ -1,9 +1,9 @@
 # Define the scoring rules
 scoring_rules:
-  SACKS: 1
-  INT: 2
-  FUM: 2
-  REC: 2
-  TD: 6
-  XP: 1
+  SACKS: 1 # Points for sacks
+  INT: 2 # Points for interceptions
+  FUM: 2 # Points for fumbles
+  REC: 2 # Points for recoveries
+  TD: 6 # Points for touchdowns
+  XP: 1 # Points for extra points
 
