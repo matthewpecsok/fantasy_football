@@ -1,8 +1,9 @@
 # Define the scoring rules
 scoring_rules:
+  YDS : .1 # points for yards. 1/10 of the yards gained are points
   SACKS: 1 # Points for sacks
   INT: 2 # Points for interceptions
-  FUM: 2 # Points for fumbles
+  FUM: -1 # Points for fumbles
   REC: 2 # Points for recoveries
   TD: 6 # Points for touchdowns
   XP: 1 # Points for extra points
